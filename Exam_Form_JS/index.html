@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        div{
+            margin: auto;
+            display: flex;
+            width:50%
+        }
+        textarea{
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="post">
+            <fieldset>
+                <h1>Send e-mail to someone@example.com:</h1>
+                <label for="#name">Name:</label><br/>
+                <input type="text" id="name"/><br/>
+                <label for="#email">E-mail:</label><br/>
+                <input type="email" id="email"/><br/>
+                <label for="#comment">Comment:</label><br/>
+                <textarea id="comment" cols="30" rows="1"></textarea><br/>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
